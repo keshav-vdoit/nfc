@@ -16,13 +16,12 @@ export default function Home() {
     setLoader(true);
 const data={}
     try {
-      const response = await axios.post("/api/mac",data, {
+      const response = await axios.post("https://mnsrc7w1-5000.inc1.devtunnels.ms/mac",data, {
         headers: {
           accept: "application/json",
           "content-type": "application/json",
         },
       });
-      console.log(response);
       setData(response?.data);
     } catch (error) {
       console.log(error);

@@ -1,0 +1,15 @@
+.home{
+    min-height: 100vh;
+}
+
+/* Form Container */
+.form-container{
+    color: white;
+    width: 30vw;
+    padding: .5vw;
+    border-radius: 20px;
+    position: absolute;
+    right: 5vw;
+    top: 30vh;
+    background: rgba(0, 48, 168,0.5);
+}
